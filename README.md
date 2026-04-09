@@ -1,4 +1,4 @@
-# 🎯 Portfólio de Automação Dinâmico
+# 🎯 Portfólio de Automação
 
 Bem-vindo ao meu **Hub de Automação**, um monorepo que atua tanto como vitrine para meu currículo quanto como ecossistema centralizado dos meus principais de desafios de engenharia na prática. Focado nos mais altos padrões de teste e excelência de código.
 
