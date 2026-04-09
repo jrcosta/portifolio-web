@@ -21,7 +21,8 @@ portfolio-web/
  ├── public/                   # Media estática da aplicação
  └── demonstracoes/
       ├── api-restassured/     # 👉 [Submódulo Git] Automações de API em Java do SWAPI
-      └── e2e-cypress/         # (Em breve) Pipeline Cypress de UI 
+      ├── e2e-cypress/         # (Em breve) Pipeline Cypress de UI 
+      └── load-testing-k6/     # (Em breve) Scripts e cenários de Testes de Carga
 ```
 
 ---

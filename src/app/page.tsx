@@ -47,6 +47,11 @@ export default function Home() {
             <p className="text-muted">Integração contínua e pipelines usando GitHub/GitLab Actions, gerando incríveis Relatórios Interativos no Allure para feedbacks contínuos da equipe.</p>
           </div>
 
+          <div className="glass-card">
+            <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem" }}>Testes de Performance & Carga</h3>
+            <p className="text-muted">Desenvolvimento de cenários de stress, carga e escalabilidade utilizando k6 e/ou JMeter, garantindo a resiliência do sistema sob alto tráfego concorrente.</p>
+          </div>
+
         </div>
       </section>
 
@@ -89,6 +94,17 @@ export default function Home() {
             </div>
             <p className="text-muted">
               Automação completa (End-to-End) de interfaces pelo navegador para validar fluxos web modernos. O workspace encontra-se na respectiva pasta <code>/demonstracoes/e2e-cypress</code> aguardando implementação.
+            </p>
+          </div>
+
+          {/* Placeholder for Load Testing */}
+          <div className="glass-card" style={{ opacity: 0.6, borderStyle: "dashed" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1rem" }}>
+              <span style={{ background: "rgba(239, 68, 68, 0.2)", color: "#ef4444", padding: "0.25rem 0.75rem", borderRadius: "1rem", fontSize: "0.875rem", fontWeight: 600 }}>Performance</span>
+              <h3 style={{ fontSize: "1.5rem" }}>Testes de Carga com k6 (Em Breve)</h3>
+            </div>
+            <p className="text-muted">
+              Simulação de uso massivo com injeção virtual de usuários para descobrir gargalos e validar SLAs da aplicação. Workspace em <code>/demonstracoes/load-testing-k6</code> aguardando scripts.
             </p>
           </div>
 
