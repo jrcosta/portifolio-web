@@ -1,0 +1,3 @@
+[submodule "demonstracoes/api-restassured"]
+	path = demonstracoes/api-restassured
+	url = https://github.com/jrcosta/portifolio-automacao-api-restassured
