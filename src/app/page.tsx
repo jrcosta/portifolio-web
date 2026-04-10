@@ -79,9 +79,12 @@ export default function Home() {
               </div>
             </div>
             
-            <div style={{ flex: "0 0 auto", alignSelf: "flex-end" }}>
-               <Link href="https://github.com/jrcosta/portifolio-automacao-api-restassured" className="btn-secondary">
+            <div style={{ flex: "0 0 auto", alignSelf: "flex-end", display: "flex", gap: "1rem" }}>
+               <Link href="https://github.com/jrcosta/portifolio-automacao-api-restassured" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                  Ver Código
+               </Link>
+               <Link href="https://jrcosta.github.io/portifolio-automacao-api-restassured/" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                 Visualizar Allure Report
                </Link>
             </div>
           </div>
