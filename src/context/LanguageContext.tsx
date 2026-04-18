@@ -121,7 +121,11 @@ export const translations = {
           badge: "Performance",
           title: "Load Tests with k6",
           description:
-            "High-usage simulation with virtual user injection to identify bottlenecks and validate application SLAs under concurrent high traffic."
+            "Simple API and realistic load scenarios with k6 to measure latency, throughput, and error rate under concurrent traffic.",
+          links: {
+            repository: "k6 Lab Repository",
+            scenario: "k6 Load Scenario"
+          }
         }
       }
     },
@@ -249,7 +253,11 @@ export const translations = {
           badge: "Performance",
           title: "Testes de Carga com k6",
           description:
-            "Simulação de uso massivo com injeção virtual de usuários para descobrir gargalos e validar SLAs da aplicação sob alto tráfego concorrente."
+            "API simples e cenários realistas de carga com k6 para medir latência, throughput e taxa de erro sob tráfego concorrente.",
+          links: {
+            repository: "Repositório do Lab k6",
+            scenario: "Cenário de Carga k6"
+          }
         }
       }
     },
