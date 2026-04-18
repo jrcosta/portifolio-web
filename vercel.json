@@ -1,3 +1,4 @@
 {
-  "outputDirectory": "out"
+  "outputDirectory": "out",
+  "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_REF\" = \"gh-pages\" ]; then echo 'Skipping deploy for gh-pages'; exit 0; else exit 1; fi"
 }
