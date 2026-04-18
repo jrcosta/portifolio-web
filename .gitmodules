@@ -4,3 +4,6 @@
 [submodule "demonstracoes/qagent"]
 	path = demonstracoes/qagent
 	url = https://github.com/jrcosta/qagent.git
+[submodule "demonstracoes/portifolio-automacao-k6"]
+	path = demonstracoes/portifolio-automacao-k6
+	url = https://github.com/jrcosta/portifolio-automacao-k6.git
