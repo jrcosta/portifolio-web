@@ -129,13 +129,15 @@ const Hero = () => {
                 <span className="text-white"> = {'{'}</span>
               </div>
               <div className="flex pl-8">
-                <span className="text-green-400">&quot;Java&quot;</span>
+                <span className="text-green-400">&quot;BDD&quot;</span>
                 <span className="text-white">, </span>
-                <span className="text-green-400">&quot;Spring Boot&quot;</span>
+                <span className="text-green-400">&quot;Automação de Testes&quot;</span>
                 <span className="text-white">,</span>
               </div>
               <div className="flex pl-8">
                 <span className="text-green-400">&quot;RestAssured&quot;</span>
+                <span className="text-white">, </span>
+                <span className="text-green-400">&quot;Robot Framework&quot;</span>
                 <span className="text-white">, </span>
                 <span className="text-green-400">&quot;CI/CD&quot;</span>
               </div>

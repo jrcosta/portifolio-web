@@ -39,13 +39,13 @@ const AutomationLabs = () => {
             <div className="flex-1 min-w-[280px]">
               <div className="flex items-center gap-3 mb-3">
                 <span className="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-accent-primary/20 text-accent-primary">
-                  Backend API
+                  {t.labs.cards.api.badge}
                 </span>
                 <span className="w-2 h-2 rounded-full bg-accent-primary animate-pulse" title="Live" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">API RestAssured – Star Wars API (SWAPI)</h3>
+              <h3 className="text-xl font-bold text-white mb-2">{t.labs.cards.api.title}</h3>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                Suíte robusta de testes automatizados validando os contratos da SWAPI com padrão AAA, modelagem por POJOs e CI/CD via GitHub Actions gerando relatório Allure publicado automaticamente.
+                {t.labs.cards.api.description}
               </p>
               <div className="flex flex-wrap gap-2">
                 {['Java 21', 'RestAssured', 'JUnit 5', 'Allure', 'GitHub Actions'].map((tech) => (
@@ -91,16 +91,16 @@ const AutomationLabs = () => {
           >
             <div className="flex items-center gap-3 mb-3">
               <span className="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-[rgba(20,184,166,0.15)] text-teal-400">
-                Frontend E2E
+                {t.labs.cards.e2e.badge}
               </span>
               <div className="flex items-center gap-1 text-xs font-mono text-gray-500">
                 <Clock size={12} />
                 {t.labs.comingSoon}
               </div>
             </div>
-            <h3 className="text-xl font-bold text-white mb-2">Testes E2E com Cypress</h3>
+            <h3 className="text-xl font-bold text-white mb-2">{t.labs.cards.e2e.title}</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Automação completa de interfaces pelo navegador para validar fluxos web modernos. Pipeline CI/CD integrado com relatórios de cobertura visual.
+              {t.labs.cards.e2e.description}
             </p>
           </motion.div>
 
@@ -114,16 +114,16 @@ const AutomationLabs = () => {
           >
             <div className="flex items-center gap-3 mb-3">
               <span className="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-[rgba(239,68,68,0.15)] text-red-400">
-                Performance
+                {t.labs.cards.performance.badge}
               </span>
               <div className="flex items-center gap-1 text-xs font-mono text-gray-500">
                 <Clock size={12} />
                 {t.labs.comingSoon}
               </div>
             </div>
-            <h3 className="text-xl font-bold text-white mb-2">Testes de Carga com k6</h3>
+            <h3 className="text-xl font-bold text-white mb-2">{t.labs.cards.performance.title}</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Simulação de uso massivo com injeção virtual de usuários para descobrir gargalos e validar SLAs da aplicação sob alto tráfego concorrente.
+              {t.labs.cards.performance.description}
             </p>
           </motion.div>
         </div>

@@ -82,6 +82,26 @@ export const translations = {
       comingSoon: "Coming Soon",
       viewCode: "View Code",
       viewReport: "View Allure Report",
+      cards: {
+        api: {
+          badge: "Backend API",
+          title: "API RestAssured – Star Wars API (SWAPI)",
+          description:
+            "Robust automated test suite validating SWAPI contracts using the AAA pattern, POJO modeling, and CI/CD with GitHub Actions publishing Allure reports automatically."
+        },
+        e2e: {
+          badge: "Frontend E2E",
+          title: "E2E Tests with Cypress",
+          description:
+            "Complete browser-based interface automation to validate modern web flows. CI/CD pipeline integrated with visual coverage reports."
+        },
+        performance: {
+          badge: "Performance",
+          title: "Load Tests with k6",
+          description:
+            "High-usage simulation with virtual user injection to identify bottlenecks and validate application SLAs under concurrent high traffic."
+        }
+      }
     },
     contact: {
       title: "Let's",
@@ -168,6 +188,26 @@ export const translations = {
       comingSoon: "Em Breve",
       viewCode: "Ver Código",
       viewReport: "Ver Allure Report",
+      cards: {
+        api: {
+          badge: "Backend API",
+          title: "API RestAssured – Star Wars API (SWAPI)",
+          description:
+            "Suíte robusta de testes automatizados validando os contratos da SWAPI com padrão AAA, modelagem por POJOs e CI/CD via GitHub Actions gerando relatório Allure publicado automaticamente."
+        },
+        e2e: {
+          badge: "Frontend E2E",
+          title: "Testes E2E com Cypress",
+          description:
+            "Automação completa de interfaces pelo navegador para validar fluxos web modernos. Pipeline CI/CD integrado com relatórios de cobertura visual."
+        },
+        performance: {
+          badge: "Performance",
+          title: "Testes de Carga com k6",
+          description:
+            "Simulação de uso massivo com injeção virtual de usuários para descobrir gargalos e validar SLAs da aplicação sob alto tráfego concorrente."
+        }
+      }
     },
     contact: {
       title: "Vamos",
