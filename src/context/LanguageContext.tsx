@@ -19,6 +19,17 @@ export const translations = {
       viewExperience: "View Experience",
       contactMe: "Contact Me",
       openToWork: "Open to Work",
+      code: {
+        fileName: 'Developer.java',
+        className: 'Developer',
+        nameVariable: 'name',
+        stackVariable: 'stack',
+        stackValues: ['BDD', 'Test Automation', 'RestAssured', 'Robot Framework', 'CI/CD'],
+        methodName: 'buildSolutions',
+        comment: '// Delivering value',
+        qualityClass: 'Quality',
+        qualityMethod: 'improve'
+      }
     },
     about: {
       title: "About Me",
@@ -115,7 +126,7 @@ export const translations = {
       about: 'Sobre',
       skills: 'Skills',
       experience: 'Experiência',
-      labs: 'Labs',
+      labs: 'Laboratórios',
       contact: 'Contato',
     },
     hero: {
@@ -125,6 +136,17 @@ export const translations = {
       viewExperience: "Ver Experiência",
       contactMe: "Contato",
       openToWork: "Disponível para Mercado",
+      code: {
+        fileName: 'Desenvolvedor.java',
+        className: 'Desenvolvedor',
+        nameVariable: 'nome',
+        stackVariable: 'pilha',
+        stackValues: ['BDD', 'Automação de Testes', 'RestAssured', 'Robot Framework', 'CI/CD'],
+        methodName: 'construirSolucoes',
+        comment: '// Entregando valor',
+        qualityClass: 'Qualidade',
+        qualityMethod: 'melhorar'
+      }
     },
     about: {
       title: "Sobre Mim",

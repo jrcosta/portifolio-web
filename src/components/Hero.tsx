@@ -107,54 +107,54 @@ const Hero = () => {
               <div className="w-3 h-3 rounded-full bg-red-500" />
               <div className="w-3 h-3 rounded-full bg-yellow-500" />
               <div className="w-3 h-3 rounded-full bg-green-500" />
-              <span className="ml-2 text-gray-500 text-xs">Developer.java</span>
+              <span className="ml-2 text-gray-500 text-xs">{t.hero.code.fileName}</span>
             </div>
 
             <div className="space-y-1">
               <div className="flex">
                 <span className="text-purple-400 mr-2">public class</span>
-                <span className="text-yellow-300">Developer</span>
+                <span className="text-yellow-300">{t.hero.code.className}</span>
                 <span className="text-white"> {'{'}</span>
               </div>
               <div className="flex pl-4">
                 <span className="text-purple-400 mr-2">private String</span>
-                <span className="text-blue-300">name</span>
+                <span className="text-blue-300">{t.hero.code.nameVariable}</span>
                 <span className="text-white"> = </span>
                 <span className="text-green-400">&quot;Eneri Junior&quot;</span>
                 <span className="text-white">;</span>
               </div>
               <div className="flex pl-4">
                 <span className="text-purple-400 mr-2">private String[]</span>
-                <span className="text-blue-300">stack</span>
+                <span className="text-blue-300">{t.hero.code.stackVariable}</span>
                 <span className="text-white"> = {'{'}</span>
               </div>
               <div className="flex pl-8">
-                <span className="text-green-400">&quot;BDD&quot;</span>
+                <span className="text-green-400">&quot;{t.hero.code.stackValues[0]}&quot;</span>
                 <span className="text-white">, </span>
-                <span className="text-green-400">&quot;Automação de Testes&quot;</span>
+                <span className="text-green-400">&quot;{t.hero.code.stackValues[1]}&quot;</span>
                 <span className="text-white">,</span>
               </div>
               <div className="flex pl-8">
-                <span className="text-green-400">&quot;RestAssured&quot;</span>
+                <span className="text-green-400">&quot;{t.hero.code.stackValues[2]}&quot;</span>
                 <span className="text-white">, </span>
-                <span className="text-green-400">&quot;Robot Framework&quot;</span>
+                <span className="text-green-400">&quot;{t.hero.code.stackValues[3]}&quot;</span>
                 <span className="text-white">, </span>
-                <span className="text-green-400">&quot;CI/CD&quot;</span>
+                <span className="text-green-400">&quot;{t.hero.code.stackValues[4]}&quot;</span>
               </div>
               <div className="flex pl-4">
                 <span className="text-white">{'};'}</span>
               </div>
               <div className="flex pl-4 mt-2">
                 <span className="text-purple-400">public void</span>
-                <span className="text-blue-300 ml-2">buildSolutions</span>
+                <span className="text-blue-300 ml-2">{t.hero.code.methodName}</span>
                 <span className="text-white">() {'{'}</span>
               </div>
               <div className="flex pl-8">
-                <span className="text-gray-500">{'// Delivering value'}</span>
+                <span className="text-gray-500">{t.hero.code.comment}</span>
               </div>
               <div className="flex pl-8">
-                <span className="text-blue-300">Quality</span>
-                <span className="text-white">.improve();</span>
+                <span className="text-blue-300">{t.hero.code.qualityClass}</span>
+                <span className="text-white">.{t.hero.code.qualityMethod}();</span>
               </div>
               <div className="flex pl-4">
                 <span className="text-white">{'}'}</span>
