@@ -115,7 +115,11 @@ export const translations = {
           badge: "Frontend E2E",
           title: "E2E Tests with Cypress",
           description:
-            "Complete browser-based interface automation to validate modern web flows. CI/CD pipeline integrated with visual coverage reports."
+            "Complete browser-based interface automation to validate modern web flows. CI/CD pipeline integrated with visual coverage reports.",
+          links: {
+            repository: "Cypress Lab Repository",
+            smokeSpec: "Smoke Scenario"
+          }
         },
         performance: {
           badge: "Performance",
@@ -247,7 +251,11 @@ export const translations = {
           badge: "Frontend E2E",
           title: "Testes E2E com Cypress",
           description:
-            "Automação completa de interfaces pelo navegador para validar fluxos web modernos. Pipeline CI/CD integrado com relatórios de cobertura visual."
+            "Automação completa de interfaces pelo navegador para validar fluxos web modernos. Pipeline CI/CD integrado com relatórios de cobertura visual.",
+          links: {
+            repository: "Repositório do Lab Cypress",
+            smokeSpec: "Cenário Smoke"
+          }
         },
         performance: {
           badge: "Performance",
