@@ -100,6 +100,17 @@ export const translations = {
           description:
             "Robust automated test suite validating SWAPI contracts using the AAA pattern, POJO modeling, and CI/CD with GitHub Actions publishing Allure reports automatically."
         },
+        agent: {
+          badge: "AI Agents",
+          title: "QAgent – AI Agent Creation Lab",
+          description:
+            "Practical example of building AI agents to automate API analysis and execution flow, with reproducible outputs published in GitHub Pages.",
+          links: {
+            agentRepo: "Agent Repository",
+            targetRepo: "Agent Target Repository",
+            executionResults: "Agent Execution Results"
+          }
+        },
         e2e: {
           badge: "Frontend E2E",
           title: "E2E Tests with Cypress",
@@ -216,6 +227,17 @@ export const translations = {
           title: "API RestAssured – Star Wars API (SWAPI)",
           description:
             "Suíte robusta de testes automatizados validando os contratos da SWAPI com padrão AAA, modelagem por POJOs e CI/CD via GitHub Actions gerando relatório Allure publicado automaticamente."
+        },
+        agent: {
+          badge: "Agentes de IA",
+          title: "QAgent – Laboratório de Criação de Agentes",
+          description:
+            "Exemplo prático de construção de agentes de IA para automatizar análise e fluxo de execução em APIs, com saídas reproduzíveis publicadas no GitHub Pages.",
+          links: {
+            agentRepo: "Repositório do Agente",
+            targetRepo: "Repositório Alvo do Agente",
+            executionResults: "Resultado das Execuções"
+          }
         },
         e2e: {
           badge: "Frontend E2E",
