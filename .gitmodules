@@ -7,3 +7,6 @@
 [submodule "demonstracoes/portifolio-automacao-k6"]
 	path = demonstracoes/portifolio-automacao-k6
 	url = https://github.com/jrcosta/portifolio-automacao-k6.git
+[submodule "demonstracoes/portifolio-automacao-cypress"]
+	path = demonstracoes/portifolio-automacao-cypress
+	url = https://github.com/jrcosta/portifolio-automacao-cypress.git
