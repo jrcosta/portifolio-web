@@ -186,16 +186,16 @@ const AutomationLabs = () => {
                 className={actionButtonSecondaryClass}
               >
                 <Github size={16} />
-                {t.labs.cards.e2e.links.repository}
+                {t.labs.viewCode}
               </a>
               <a
-                href="https://github.com/jrcosta/portifolio-automacao-cypress/blob/main/cypress/e2e/storefront-smoke.cy.js"
+                href="https://jrcosta.github.io/portifolio-automacao-cypress/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={actionButtonPrimaryClass}
               >
                 <ExternalLink size={16} />
-                {t.labs.cards.e2e.links.smokeSpec}
+                {t.labs.viewReport}
               </a>
             </div>
           </motion.div>
@@ -239,16 +239,16 @@ const AutomationLabs = () => {
                 className={actionButtonSecondaryClass}
               >
                 <Github size={16} />
-                {t.labs.cards.performance.links.repository}
+                {t.labs.viewCode}
               </a>
               <a
-                href="https://github.com/jrcosta/portifolio-automacao-k6/blob/main/k6/load-test.js"
+                href="https://jrcosta.github.io/portifolio-automacao-k6/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={actionButtonPrimaryClass}
               >
                 <ExternalLink size={16} />
-                {t.labs.cards.performance.links.scenario}
+                {t.labs.viewHtmlReport}
               </a>
             </div>
           </motion.div>

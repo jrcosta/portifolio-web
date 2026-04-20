@@ -93,6 +93,7 @@ export const translations = {
       comingSoon: "Coming Soon",
       viewCode: "View Code",
       viewReport: "View Allure Report",
+      viewHtmlReport: "View K6 Report",
       cards: {
         api: {
           badge: "Backend API",
@@ -229,6 +230,7 @@ export const translations = {
       comingSoon: "Em Breve",
       viewCode: "Ver Código",
       viewReport: "Ver Allure Report",
+      viewHtmlReport: "Ver Relatório K6",
       cards: {
         api: {
           badge: "Backend API",
