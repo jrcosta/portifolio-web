@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "cypress:open": "npm --prefix demonstracoes/portifolio-automacao-cypress run cy:open",
+    "cypress:run": "npm --prefix demonstracoes/portifolio-automacao-cypress run cy:run",
+    "cypress:run:headed": "npm --prefix demonstracoes/portifolio-automacao-cypress run cy:run:headed"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
