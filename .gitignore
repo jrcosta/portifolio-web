@@ -23,6 +23,8 @@
 # misc
 .DS_Store
 *.pem
+scratch/index-login.cy.js.backup
+scratch/portifolio-automacao-cypress.pre-submodule/
 
 # debug
 npm-debug.log*
