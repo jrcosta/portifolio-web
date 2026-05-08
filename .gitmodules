@@ -10,3 +10,6 @@
 [submodule "demonstracoes/portifolio-automacao-cypress"]
 	path = demonstracoes/portifolio-automacao-cypress
 	url = https://github.com/jrcosta/portifolio-automacao-cypress.git
+[submodule "demonstracoes/fintrack"]
+	path = demonstracoes/fintrack
+	url = https://github.com/jrcosta/portifolio-java.git
