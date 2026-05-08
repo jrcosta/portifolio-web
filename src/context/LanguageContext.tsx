@@ -87,11 +87,12 @@ export const translations = {
       ]
     },
     labs: {
-      title: "Automation",
+      title: "Automation / Java Development",
       highlight: "Labs",
-      subtitle: "Real automation examples integrated into this portfolio as Git submodules.",
+      subtitle: "Real automation and Java development examples integrated into this portfolio as Git submodules.",
       comingSoon: "Coming Soon",
       viewCode: "View Code",
+      viewProject: "View Project",
       viewReport: "View Allure Report",
       viewHtmlReport: "View K6 Report",
       cards: {
@@ -100,6 +101,12 @@ export const translations = {
           title: "API RestAssured – Star Wars API (SWAPI)",
           description:
             "Robust automated test suite validating SWAPI contracts using the AAA pattern, POJO modeling, and CI/CD with GitHub Actions publishing Allure reports automatically."
+        },
+        java: {
+          badge: "Java Full Stack",
+          title: "FinTrack – Personal Finance System",
+          description:
+            "Full stack demo with Java 21, Spring Boot and React, including demo login, financial dashboard, transaction registration and REST API integration."
         },
         agent: {
           badge: "AI Agents",
@@ -225,10 +232,11 @@ export const translations = {
     },
     labs: {
       title: "Laboratórios de",
-      highlight: "Automação",
-      subtitle: "Exemplos reais de automação integrados neste portfólio como submódulos Git.",
+      highlight: "Automação/Desenvolvimento Java",
+      subtitle: "Exemplos reais de automação e desenvolvimento Java integrados neste portfólio como submódulos Git.",
       comingSoon: "Em Breve",
       viewCode: "Ver Código",
+      viewProject: "Ver Projeto",
       viewReport: "Ver Allure Report",
       viewHtmlReport: "Ver Relatório K6",
       cards: {
@@ -237,6 +245,12 @@ export const translations = {
           title: "API RestAssured – Star Wars API (SWAPI)",
           description:
             "Suíte robusta de testes automatizados validando os contratos da SWAPI com padrão AAA, modelagem por POJOs e CI/CD via GitHub Actions gerando relatório Allure publicado automaticamente."
+        },
+        java: {
+          badge: "Java Full Stack",
+          title: "FinTrack – Sistema Financeiro Pessoal",
+          description:
+            "Demonstração full stack com Java 21, Spring Boot e React, incluindo login demonstrativo, dashboard financeiro, cadastro de transações e integração via API REST."
         },
         agent: {
           badge: "Agentes de IA",

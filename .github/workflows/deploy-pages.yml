@@ -26,6 +26,18 @@ jobs:
         
       - name: Build with Next.js
         run: npm run build
+
+      - name: Add Vercel config for static branch
+        run: |
+          cat > out/vercel.json <<'EOF'
+          {
+            "$schema": "https://openapi.vercel.sh/vercel.json",
+            "framework": null,
+            "installCommand": "echo 'No install required for static export'",
+            "buildCommand": "echo 'No build required for static export'",
+            "outputDirectory": "."
+          }
+          EOF
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

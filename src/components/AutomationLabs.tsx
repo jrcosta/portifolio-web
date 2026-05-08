@@ -85,11 +85,64 @@ const AutomationLabs = () => {
             </div>
           </motion.div>
 
-          {/* Card 2 — QAgent (Ativo) */}
+          {/* Card 2 — FinTrack Java Full Stack (Ativo) */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="glass-card p-6 flex flex-wrap justify-between items-center gap-6 hover:border-accent-primary/50 transition-colors"
+          >
+            <div className="flex-1 min-w-[280px]">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-accent-primary/20 text-accent-primary">
+                  {t.labs.cards.java.badge}
+                </span>
+                <span className="w-2 h-2 rounded-full bg-accent-primary animate-pulse" title="Live" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2">{t.labs.cards.java.title}</h3>
+              <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                {t.labs.cards.java.description}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {['Java 21', 'Spring Boot 3', 'React', 'Vite', 'API REST'].map((tech) => (
+                  <span
+                    key={tech}
+                    className="text-xs font-mono bg-white/5 text-gray-400 px-2 py-1 rounded border border-white/10"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className={actionGroupClass}>
+              <a
+                href="https://github.com/jrcosta/portifolio-java"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={actionButtonSecondaryClass}
+              >
+                <Github size={16} />
+                {t.labs.viewCode}
+              </a>
+              <a
+                href="https://github.com/jrcosta/portifolio-java#readme"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={actionButtonPrimaryClass}
+              >
+                <ExternalLink size={16} />
+                {t.labs.viewProject}
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Card 3 — QAgent (Ativo) */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
             className="glass-card p-6 flex flex-wrap justify-between items-center gap-6 hover:border-accent-primary/50 transition-colors"
           >
@@ -147,11 +200,11 @@ const AutomationLabs = () => {
             </div>
           </motion.div>
 
-          {/* Card 2 — E2E Cypress (Ativo) */}
+          {/* Card 4 — E2E Cypress (Ativo) */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
             viewport={{ once: true }}
             className="glass-card p-6 flex flex-wrap justify-between items-center gap-6 hover:border-accent-primary/50 transition-colors"
           >
@@ -200,11 +253,11 @@ const AutomationLabs = () => {
             </div>
           </motion.div>
 
-          {/* Card 3 — Load Testing k6 (Ativo) */}
+          {/* Card 5 — Load Testing k6 (Ativo) */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: true }}
             className="glass-card p-6 flex flex-wrap justify-between items-center gap-6 hover:border-accent-primary/50 transition-colors"
           >
